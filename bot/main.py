@@ -11,7 +11,7 @@ from aiogram.utils.keyboard import InlineKeyboardBuilder
 
 from bot.database import save_user, get_user, get_all_users
 
-TOKEN = "7968153954:AAFDw9rDiDrbGH0CM8RsM6aOi-H33O-jOxM"
+TOKEN = "Bot_Token"
 bot_properties = DefaultBotProperties(parse_mode="HTML")
 bot = Bot(token=TOKEN, default=bot_properties)
 
